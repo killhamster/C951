@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>START</pattern>
+        <template>Hello! I'm the student career bot for WGU's department of Computer Science. To get started please select one of the following options: 
+            <button>
+                <text>Learn about Computer Science careers.</text>
+                <postback>careers</postback>
+            </button>
+            <button>
+                <text>Help me choose a career!</text>
+                <postback>choose</postback>
+            </button>    
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CAREERS</pattern>
+        <template>Here are 5 of the most popular Computer Science careers that you can pursue!
+            <button>
+                <text>Software Developer</text>
+                <postback>devjob</postback>
+            </button>
+            <button>
+                <text>Data Scientist</text>
+                <postback>datascijob</postback>
+            </button>
+            <button>
+                <text>Cybersecurity Analyst</text>
+                <postback>infosecjob</postback>
+            </button>
+            <button>
+                <text>UX/UI Designer</text>
+                <postback>designjob</postback>
+            </button>
+            <button>
+                <text>Systems Analyst</text>
+                <postback>analystjob</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+		<category>
+	    <pattern>DEVJOB</pattern>
+	    <template><b>Software Developer:</b><br />
+	    Designs, codes, tests, and maintains software applications. Collaborates with stakeholders to understand requirements and creates functional and user-friendly software solutions.
+	       <link>
+                <text> Click here to learn more about Software Development.</text>
+                <url>https://www.wgu.edu/blog/software-development-good-career2205.html</url>
+            </link>
+            <button>
+                <text>Click here to learn about Computer Science careers.</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Click here for help choosing a career.</text>
+                <postback>choose</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+	    <pattern>DATASCIJOB</pattern>
+	    <template><b>Data Scientist:</b><br />
+	    Analyzes large volumes of data to extract valuable insights and patterns. Utilizes statistical methods and machine learning techniques to interpret complex datasets and inform strategic decision-making.
+	       <link>
+                <text> Click here to learn more about Data Science.</text>
+                <url>https://www.wgu.edu/career-guide/information-technology/data-scientist-career.html</url>
+            </link>
+            <button>
+                <text>Click here to learn about Computer Science careers.</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Click here for help choosing a career.</text>
+                <postback>choose</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+	    <pattern>INFOSECJOB</pattern>
+	    <template><b>Cybersecurity Analyst:</b><br />
+	       Protects computer systems, networks, and data from security breaches and cyber threats. Monitors for potential vulnerabilities, implements security measures, and responds to incidents to ensure the confidentiality and integrity of information.
+	       <link>
+                <text> Click here to learn more about Cybersecurity.</text>
+                <url>https://www.wgu.edu/blog/degree-cybersecurity-comprehensive-guide2007.html</url>
+            </link>
+            <button>
+                <text>Click here to learn about Computer Science careers.</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Click here for help choosing a career.</text>
+                <postback>choose</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+	    <pattern>DESIGNJOB</pattern>
+	    <template><b>UX/UI Designer:</b><br />
+	       Focuses on creating positive user experiences by designing the user interface and overall interaction design of digital products. Balances aesthetics and functionality to enhance user satisfaction and usability.
+	       <link>
+                <text> Click here to learn more about UX/UI Design.</text>
+                <url>https://www.wgu.edu/career-guide/information-technology/ux-designer-career.html</url>
+            </link>
+            <button>
+                <text>Click here to learn about Computer Science careers.</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Click here for help choosing a career.</text>
+                <postback>choose</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+	    <pattern>ANALYSTJOB</pattern>
+	    <template><b>Systems Analyst:</b><br />
+	       Evaluates and optimizes computer systems and processes within an organization. Analyzes requirements, designs efficient systems, and ensures that technology solutions align with business objectives to improve overall efficiency.
+	       <link>
+                <text> Click here to learn more about Systems Analysis.</text>
+                <url>https://www.wgu.edu/blog/how-become-computer-systems-analyst1712.html</url>
+            </link>
+            <button>
+                <text>Click here to learn about Computer Science careers.</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Click here for help choosing a career.</text>
+                <postback>choose</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

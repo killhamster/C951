@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>Sorry, I don't understand that! Please type "Start" to continue.</template>
+  </category>
+  <category>
+    <pattern>HELLO ^</pattern>
+    <template>Hello! I'm the student career bot for WGU's department of Computer Science. Please type "Start" to continue.</template>
+  </category>
+  <category>
+    <pattern>HI ^</pattern>
+    <template>Hello! I'm the student career bot for WGU's department of Computer Science. Please type "Start" to continue.</template>
+  </category>
+</aiml>

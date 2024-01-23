@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+        <pattern>CHOOSE</pattern>
+        <template>I'll ask you a few questions to help you consider a career.
+            Do you find joy in creating innovative software solutions and bringing ideas to life through coding?
+            <button>
+                <text>Yes</text>
+                <postback>devjob</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>datasciq</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>DATASCIQ</pattern>
+        <template>Are you intrigued by uncovering meaningful insights from data and using it to drive decision-making?
+            <button>
+                <text>Yes</text>
+                <postback>datascijob</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>infosecq</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>INFOSECQ</pattern>
+        <template>Do you have a passion for safeguarding digital assets and staying one step ahead of potential security threats?
+            <button>
+                <text>Yes</text>
+                <postback>infosecjob</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>designq</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>DESIGNQ</pattern>
+        <template>Are you drawn to crafting seamless and visually appealing user experiences that enhance digital products?
+            <button>
+                <text>Yes</text>
+                <postback>designjob</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>analystq</postback>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>ANALYSTQ</pattern>
+        <template>Do you enjoy analyzing and optimizing complex systems to ensure they operate efficiently and effectively?
+            <button>
+                <text>Yes</text>
+                <postback>analystjob</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>bummer</postback>
+            </button>
+        </template>
+    </category>
+    <!-- Maybe the student doesn't actually like CS? -->
+    <category>
+        <pattern>BUMMER</pattern>
+        <template>
+            If these Computer Science careers don't interest you, please schedule a meeting with your advisor to consider other careers or majors.
+        </template>
+    </category>
+</aiml>
